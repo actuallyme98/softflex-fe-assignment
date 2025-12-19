@@ -9,7 +9,8 @@ interface Props {
   onLoadMore: () => void;
 }
 
-function EmployeeListMobile({ data, loading, onLoadMore }: Props) {
+function EmployeeListMobile(props: Props) {
+  const { data, loading, onLoadMore } = props;
   const loadMoreRef = useInfiniteScroll(onLoadMore, loading);
 
   return (

@@ -5,8 +5,8 @@ interface Props {
   datas: Employee[];
 }
 
-function EmployeeTable(prop: Props) {
-  const { datas } = prop;
+function EmployeeTable(props: Props) {
+  const { datas } = props;
 
   return (
     <div className="bg-white rounded-sm">
