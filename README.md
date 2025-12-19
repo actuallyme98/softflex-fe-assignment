@@ -102,8 +102,6 @@ idempotent requests.
 ### Error Handling
 
 - Network and API errors are handled at the data-fetching layer
-- Unexpected rendering errors are handled using a global React Error Boundary
-- This prevents the entire application from crashing due to UI-level errors
 
 ---
 
